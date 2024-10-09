@@ -1,0 +1,29 @@
+<div>
+    <h1>Select 2 opponents</h1>
+    <ul>
+        <li ng-repeat="character in $ctrl.characters">
+            <label class="checkbox selected-{{character.selected}}">
+                <input type="checkbox" ng-model="character.selected">
+                <span>{{character.name}}</span> | <span>{{character.class}}</span> | <span>{{character.weapon}}</span>
+            </label>
+        </li>
+    </ul>
+    <div>
+        <button ng-click="$ctrl.setShowForm()"class="btn btn-dark">Add New character</button> 
+        <form 
+            ng-if="$ctrl.showForm === true"
+            ng-submit="$ctrl.addCharacter()" 
+            class="form-horizontal mt-2">
+            <input type="text" ng-model="$ctrl.newCharacterName">
+            <button type="submit">Ajouter</button>
+            <button ng-click="$ctrl.cancel()">Annuler</button>
+        </form>
+    </div>
+    <div ng-if="$ctrl.selectionIsReady()">
+        <button
+            ng-click="$ctrl.startFight()"
+            class="btn btn-dark mt-2">
+            Fight!
+        </button>
+    </div>
+</div>

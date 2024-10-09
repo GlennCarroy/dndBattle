@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular-resource@1.8.x",
+        "scope": null,
+        "escapedName": "angular-resource",
+        "name": "angular-resource",
+        "rawSpec": "1.8.x",
+        "spec": ">=1.8.0 <1.9.0",
+        "type": "range"
+      },
+      "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle"
+    ]
+  ],
+  "_from": "angular-resource@>=1.8.0 <1.9.0",
+  "_hasShrinkwrap": false,
+  "_id": "angular-resource@1.8.3",
+  "_inCache": true,
+  "_location": "/angular-resource",
+  "_nodeVersion": "14.19.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular-resource_1.8.3_1649369778994_0.8036274891351927"
+  },
+  "_npmUser": {
+    "name": "angular",
+    "email": "devops+npm@angular.io"
+  },
+  "_npmVersion": "6.14.16",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-resource@1.8.x",
+    "scope": null,
+    "escapedName": "angular-resource",
+    "name": "angular-resource",
+    "rawSpec": "1.8.x",
+    "spec": ">=1.8.0 <1.9.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.8.3.tgz",
+  "_shasum": "013994c332f0e084f2735fe28af7bccc82f0774c",
+  "_shrinkwrap": null,
+  "_spec": "angular-resource@1.8.x",
+  "_where": "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "deprecated": "For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS support options, see https://goo.gle/angularjs-path-forward.",
+  "description": "AngularJS module for interacting with RESTful server-side data sources",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-x3+4w2SyIDEIe6PUBTzcjDFI5MhZNWAPELUxkYK0QMOkOo4w3BN/qhpd+fO1deFiDS23mZKqT8kfctO1IDkCDA==",
+    "shasum": "013994c332f0e084f2735fe28af7bccc82f0774c",
+    "tarball": "https://registry.npmjs.org/angular-resource/-/angular-resource-1.8.3.tgz",
+    "fileCount": 8,
+    "unpackedSize": 58257,
+    "signatures": [
+      {
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+        "sig": "MEUCIQDHv+UzK5ikxPgkioVf5/lpOo099yETMFvEWfet9Yu9HAIgHvHCgLzDHfrRa6yVyEG+/1HdFnJX82uka0R1zXX7HdI="
+      }
+    ],
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiT2KzACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoGbxAAgG8Cjrd9NXNf0bYlakHodWilfVb9CnHvz5+dA0J2WKohhQa5\r\nBOyp4c6owJQYg28lGDfocY23wUxC73Y6XsVlsvgrsPd4buyzVyrzDpNMRdn/\r\n/1BS8GtjpP6w3FhwBVox0yhFJhIw+ANNlSdfnafROPY0cJ7X1yqhEmQGZB1m\r\nP6J9e6ox8v4Zywo5EJJzZCzV0XLAEck+VKGIZR8gY7tRWdj9J3HZxm7MnL5z\r\ns4oKkf9q8txeqnble7x+y56fWgXLCnmflsUpWif4dMYAsV54Eft0R+p67QLe\r\nizPLxaO1RSLrIT7xEDmr9daJUTrrvfCRPaO0RXA8C0liWiUjKrBwBolGixLH\r\nDKfxgFDl2i8puKLOmkt7XzsSq9AbWoodybPLoKevb05V+GPmBTMlOyfhuvOl\r\n3zEdXPPkOrf3nD2ykCleazQ+JY0V2WcKUkiNjzeKq+MZrYjBzb3en/YOXuWn\r\njqPz4xPcz069xgvHgKRELSiDZhVYd1E/rrPoX0CrG4Js1m06wjOiz580/l2L\r\ntkMR7pdEcAy6srff8AjtrdKYbO+x/K8P0gPZX7/JWiwiAbJLxRXNKx7RaAaX\r\npa8YSAV0TxHbHxX8FfNIahtkEU6nraczRyv8HewG5V53i0zyG08AbKDSWQPG\r\nl3lgOoCzodM7LzvM/LC2OtmUkqaO25zBfJo=\r\n=eE/i\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "c0217706b83e628301fb90bc8d7fbeff4540a20a",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-resource": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "rest",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "devops+npm@angular.io"
+    }
+  ],
+  "name": "angular-resource",
+  "optionalDependencies": {},
+  "readme": "# packaged angular-resource\n\n**This package contains the legacy AngularJS (version 1.x). AngularJS support has officially ended\nas of January 2022.\n[See what ending support means](https://docs.angularjs.org/misc/version-support-status) and\n[read the end of life announcement](https://goo.gle/angularjs-end-of-life).**\n\n**[See `@angular/core` for the actively supported Angular](https://npmjs.com/@angular/core).**\n\n## Install\n\nYou can install this package either with `npm` or with `bower`.\n\n### npm\n\n```shell\nnpm install angular-resource\n```\n\nThen add `ngResource` as a dependency for your app:\n\n```javascript\nangular.module('myApp', [require('angular-resource')]);\n```\n\n### bower\n\n```shell\nbower install angular-resource\n```\n\nAdd a `<script>` to your `index.html`:\n\n```html\n<script src=\"/bower_components/angular-resource/angular-resource.js\"></script>\n```\n\nThen add `ngResource` as a dependency for your app:\n\n```javascript\nangular.module('myApp', ['ngResource']);\n```\n\n## Documentation\n\nDocumentation is available on the\n[AngularJS docs site](http://docs.angularjs.org/api/ngResource).\n\n## License\n\nThe MIT License\n\nCopyright (c) 2022 Google LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.3"
+}

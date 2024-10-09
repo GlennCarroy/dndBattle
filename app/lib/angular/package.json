@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular@1.8.x",
+        "scope": null,
+        "escapedName": "angular",
+        "name": "angular",
+        "rawSpec": "1.8.x",
+        "spec": ">=1.8.0 <1.9.0",
+        "type": "range"
+      },
+      "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle"
+    ]
+  ],
+  "_from": "angular@>=1.8.0 <1.9.0",
+  "_hasShrinkwrap": false,
+  "_id": "angular@1.8.3",
+  "_inCache": true,
+  "_location": "/angular",
+  "_nodeVersion": "14.19.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular_1.8.3_1649369556468_0.4278979052040284"
+  },
+  "_npmUser": {
+    "name": "angular",
+    "email": "devops+npm@angular.io"
+  },
+  "_npmVersion": "6.14.16",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular@1.8.x",
+    "scope": null,
+    "escapedName": "angular",
+    "name": "angular",
+    "rawSpec": "1.8.x",
+    "spec": ">=1.8.0 <1.9.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular/-/angular-1.8.3.tgz",
+  "_shasum": "851ad75d5163c105a7e329555ef70c90aa706894",
+  "_shrinkwrap": null,
+  "_spec": "angular@1.8.x",
+  "_where": "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "deprecated": "For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS support options, see https://goo.gle/angularjs-path-forward.",
+  "description": "HTML enhanced for web apps",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-5qjkWIQQVsHj4Sb5TcEs4WZWpFeVFHXwxEBHUhrny41D8UrBAd6T/6nPPAsLngJCReIOqi95W3mxdveveutpZw==",
+    "shasum": "851ad75d5163c105a7e329555ef70c90aa706894",
+    "tarball": "https://registry.npmjs.org/angular/-/angular-1.8.3.tgz",
+    "fileCount": 10,
+    "unpackedSize": 2089792,
+    "signatures": [
+      {
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+        "sig": "MEUCIFwS6jJBIZlk4XAOu6bPNARc7Z3s/DE5DjUHwtliVLnSAiEA+ArKEg6q/9dt/vz8Sjg/tM2RCUFUDiXrxQS2aielzf8="
+      }
+    ],
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiT2HUACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoDsBAAioxFKj14ELQIUKyzReVICkrOds39q2imuTDJ6karH81eAa+h\r\n+mZDV4pWCU41s16YmW8MlTaE9Mq/unboJ51PEP0FK7MmUluI/5baLA0jp/7q\r\n4KAbhr/8iTWXEAhd38tR3qqShKOBo4CSfu21z+cbWlawGuTpVNmbYA9uUvOZ\r\ngvsACoNMRpcqjfX+YSbrkKMY/UwF0vGTWy6SeVIJ2X6/nqdBIOkY5zhrANWX\r\nmiUotFzWCz5vT2Tl2KnUlM+8wGhBfjWgAVctNoBlLnH4nhlWBH6J0p+bt8RE\r\nhTPRAZqneKEJCPhV354Pv80cIgHHpZ11uEUlDYHQs4boTh9rLrQJxOdrG4YW\r\nvSnG2oTDXuB5gieaEDiRC15CiGw/R1rD+264WLK7EtL5Z1Wns4MOGm/AmS3E\r\n2CyLa0rN6vrXocBCoXpXmeyI2lqpxUnc6ul0vFPD8yRO07o+QDA+isg/G3v/\r\nVogKXapnMskaQkYsSkP6QhIjHu30TZFPELP7tdX56dvAWq2SlFz4wTCvSzG9\r\nECCexm0NiFKD/w9jljVwtPQyXGeGyNzPxHvOED/S4l1ps0f2RaACwzNPY48H\r\njgeYRxvcIpOV80mYazvuzUfWORcA44psOExwTnKVvo1DxwWBKXar7psG3Bqu\r\n4Y09LmzPiR7dslhCYaXHd6rp10GmiIcKLbg=\r\n=PYwx\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "142f3c4bc7d43b6de39581a0d886bbf97f8b62ef",
+  "homepage": "http://angularjs.org",
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "devops+npm@angular.io"
+    }
+  ],
+  "name": "angular",
+  "optionalDependencies": {},
+  "readme": "# packaged angular\n\n**This package contains the legacy AngularJS (version 1.x). AngularJS support has officially ended\nas of January 2022.\n[See what ending support means](https://docs.angularjs.org/misc/version-support-status) and\n[read the end of life announcement](https://goo.gle/angularjs-end-of-life).**\n\n**[See `@angular/core` for the actively supported Angular](https://npmjs.com/@angular/core).**\n\n## Install\n\nYou can install this package either with `npm` or with `bower`.\n\n### npm\n\n```shell\nnpm install angular\n```\n\nThen add a `<script>` to your `index.html`:\n\n```html\n<script src=\"/node_modules/angular/angular.js\"></script>\n```\n\nOr `require('angular')` from your code.\n\n### bower\n\n```shell\nbower install angular\n```\n\nThen add a `<script>` to your `index.html`:\n\n```html\n<script src=\"/bower_components/angular/angular.js\"></script>\n```\n\n## Documentation\n\nDocumentation is available on the\n[AngularJS docs site](http://docs.angularjs.org/).\n\n## License\n\nThe MIT License\n\nCopyright (c) 2022 Google LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.3"
+}

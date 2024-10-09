@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular-animate@1.8.x",
+        "scope": null,
+        "escapedName": "angular-animate",
+        "name": "angular-animate",
+        "rawSpec": "1.8.x",
+        "spec": ">=1.8.0 <1.9.0",
+        "type": "range"
+      },
+      "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle"
+    ]
+  ],
+  "_from": "angular-animate@>=1.8.0 <1.9.0",
+  "_hasShrinkwrap": false,
+  "_id": "angular-animate@1.8.3",
+  "_inCache": true,
+  "_location": "/angular-animate",
+  "_nodeVersion": "14.19.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular-animate_1.8.3_1649369584402_0.35193136565733774"
+  },
+  "_npmUser": {
+    "name": "angular",
+    "email": "devops+npm@angular.io"
+  },
+  "_npmVersion": "6.14.16",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-animate@1.8.x",
+    "scope": null,
+    "escapedName": "angular-animate",
+    "name": "angular-animate",
+    "rawSpec": "1.8.x",
+    "spec": ">=1.8.0 <1.9.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.8.3.tgz",
+  "_shasum": "f88db37325de256f9144d1242ce3158134a9d72a",
+  "_shrinkwrap": null,
+  "_spec": "angular-animate@1.8.x",
+  "_where": "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "deprecated": "For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS support options, see https://goo.gle/angularjs-path-forward.",
+  "description": "AngularJS module for animations",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-/LtTKvy5sD6MZbV0v+nHgOIpnFF0mrUp+j5WIxVprVhcrJriYpuCZf4S7Owj1o76De/J0eRzANUozNJ6hVepnQ==",
+    "shasum": "f88db37325de256f9144d1242ce3158134a9d72a",
+    "tarball": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.8.3.tgz",
+    "fileCount": 8,
+    "unpackedSize": 260568,
+    "signatures": [
+      {
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+        "sig": "MEYCIQCCSwMMM2S1nOFpwO6ThuxBwiO0KAnkzuo9jwaFiom5mgIhAKfFWaSN8E8hnZ0DwkTxxUUZHzZFxl1oIkrFHNNW47Rm"
+      }
+    ],
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiT2HwACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpRaw/+NdRZuWeGk893EZPXjLrqkYB5u7tIXJWTG7Uea3EVa5nYS4+g\r\nXsBYgkxjj/oWCxrUOuqkBE6Mn9L0IHGgRhA2UVqiD2NdYCPuqvmIpBEQK8Ei\r\nmlLjpyFm01jEP5ZC6veT2pMQeqtwMkjhFFASjom3VMItg+O09kiWahiIVCIy\r\nDDtgXLLA/S9p3wKGUvmrmvJ5wPKcT+oniax8qzMqAJXJphQeBqXuuxhArmb3\r\n33QTtak7p8rf+ox1o1Qz+3cgPXeP82s9b8otSEJmDOHmgYXD8WNs++qy7GLc\r\nQx7sVcR/XqAB6v3LvtmH7EfaPr/t4wopwzOzjtYSQwL/L80/LWOgTOnFm0EX\r\nR6y0/bgMHRdXDKI4BrOgyrOmDaPS/PVv2W7GpPqtzygaJm4XZS61hHHUhK4s\r\ntLuFI9ELszo/DsH5M/fDkfT/9Yl//kD27WOm79PMn6BuutNhLBLSdurnG1cc\r\n/znszFKYvDp31akCBhiei3GTWOv2OVIBCGwdiEeCesA031g+7l85hlALxWHn\r\nP8S/czlUQHTxYA91teigKTWtIfp9Mkx+EolDsFwwPip5KxvKWxebSkZDBD3O\r\npFKpuHmYGGmg39hcRMUQQF6XF5POXSLvgb+tDyhxG4p6uepVZ2a6CvTjFina\r\nLyfZj0kKTXXbAuQW2a2kwI4LRI3jNMwbyP8=\r\n=gN+1\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "aef66379ae252a73f001f30c8eab25d68c30c6bd",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-animate": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "animation",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "devops+npm@angular.io"
+    }
+  ],
+  "name": "angular-animate",
+  "optionalDependencies": {},
+  "readme": "# packaged angular-animate\n\n**This package contains the legacy AngularJS (version 1.x). AngularJS support has officially ended\nas of January 2022.\n[See what ending support means](https://docs.angularjs.org/misc/version-support-status) and\n[read the end of life announcement](https://goo.gle/angularjs-end-of-life).**\n\n**[See `@angular/core` for the actively supported Angular](https://npmjs.com/@angular/core).**\n\n## Install\n\nYou can install this package either with `npm` or with `bower`.\n\n### npm\n\n```shell\nnpm install angular-animate\n```\n\nThen add `ngAnimate` as a dependency for your app:\n\n```javascript\nangular.module('myApp', [require('angular-animate')]);\n```\n\n### bower\n\n```shell\nbower install angular-animate\n```\n\nThen add a `<script>` to your `index.html`:\n\n```html\n<script src=\"/bower_components/angular-animate/angular-animate.js\"></script>\n```\n\nThen add `ngAnimate` as a dependency for your app:\n\n```javascript\nangular.module('myApp', ['ngAnimate']);\n```\n\n## Documentation\n\nDocumentation is available on the\n[AngularJS docs site](http://docs.angularjs.org/api/ngAnimate).\n\n## License\n\nThe MIT License\n\nCopyright (c) 2022 Google LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.3"
+}

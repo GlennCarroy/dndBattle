@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular-mocks@1.8.x",
+        "scope": null,
+        "escapedName": "angular-mocks",
+        "name": "angular-mocks",
+        "rawSpec": "1.8.x",
+        "spec": ">=1.8.0 <1.9.0",
+        "type": "range"
+      },
+      "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle"
+    ]
+  ],
+  "_from": "angular-mocks@>=1.8.0 <1.9.0",
+  "_hasShrinkwrap": false,
+  "_id": "angular-mocks@1.8.3",
+  "_inCache": true,
+  "_location": "/angular-mocks",
+  "_nodeVersion": "14.19.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular-mocks_1.8.3_1649369740815_0.030935343193191356"
+  },
+  "_npmUser": {
+    "name": "angular",
+    "email": "devops+npm@angular.io"
+  },
+  "_npmVersion": "6.14.16",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-mocks@1.8.x",
+    "scope": null,
+    "escapedName": "angular-mocks",
+    "name": "angular-mocks",
+    "rawSpec": "1.8.x",
+    "spec": ">=1.8.0 <1.9.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.8.3.tgz",
+  "_shasum": "c0dd05e5c3fc014e07af6289b23f0e817d7a4724",
+  "_shrinkwrap": null,
+  "_spec": "angular-mocks@1.8.x",
+  "_where": "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "description": "AngularJS mocks for testing",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-vqsT6zwu80cZ8RY7qRQBZuy6Fq5X7/N5hkV9LzNT0c8b546rw4ErGK6muW1u2JnDKYa7+jJuaGM702bWir4HGw==",
+    "shasum": "c0dd05e5c3fc014e07af6289b23f0e817d7a4724",
+    "tarball": "https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.8.3.tgz",
+    "fileCount": 8,
+    "unpackedSize": 139489,
+    "signatures": [
+      {
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+        "sig": "MEUCIFBIUAAAwcbis/ZdS8VMYHm5V4afunoR1APh2kS1YhO2AiEAgQvOj/EvwWssLoALdmFM5tGaX5K48DDBm3JBNqFT4qI="
+      }
+    ],
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiT2KNACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqQcRAAouj+6RwL6841OK2Dqb8A7i3KnWD/oFqKrNdJwPRFH7IaZSWL\r\n9RX1NNoejj4i2UwWq/G0Lh4ne8Oln9UBH5+v3QwKNXa9iT6JTn9Kv7lnUUW+\r\nTdEISZAuGRPZJSXpSP3P+etQQwfFsFC1tQIyarXV8vHQD+r80D8Zxf2VdZHQ\r\ncIbFyxbV9d76BCAIw4OkhzJyW6fSFNzOVH/8aaWpkscipm10EL6GFkozfG8Q\r\ngD186DuREsdZ46ncOHbz5p+IXN6Nq5aDq1QgASQIXqAiNIxmlqFRE4d73RYu\r\ny9ZOXeFl4OP0xskI9xADL6lAQH4L1or3abz9NIuHRKoLm2PRx1utgg3RgGl8\r\nmQDIzvxVmoQumCMpmrdaK6o+wcrOwoesgioDpnUbqrF2K5HdyD1YVH9Eel/O\r\nmQ91aKdVFDChOLpHHYLGbdPqJHG2r04O9DsU4IpVj/e+GmTd2iqNdW5w2ep6\r\nfPNSOpfyJrvd0EJE9GxLkfaVuDSbEdldSgehZ9UpZD7aNCijEIlXkAq7Y95d\r\n9yIeksmUqae0P2XtBKQ8ZfX4nikHVaQkJIzy08TAeVcNjWGOunaREsl1RtQ5\r\nkHK6BwOxSqU21d+fmcJDAdXFKviT5a4Imp9PRpRDgL5IzIIPTVlai1k0ZrSo\r\nj0Stzn47GCwoHlmhsHeAayxHSI0f/JV5WSw=\r\n=H/Vv\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "3e622cd9a90cb953c5d877e2efe3504ac98b6c74",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-mocks": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "mocks",
+    "testing",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "angular-mocks.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "devops+npm@angular.io"
+    }
+  ],
+  "name": "angular-mocks",
+  "optionalDependencies": {},
+  "readme": "# packaged angular-mocks\n\n**This package contains the legacy AngularJS (version 1.x). AngularJS support has officially ended\nas of January 2022.\n[See what ending support means](https://docs.angularjs.org/misc/version-support-status) and\n[read the end of life announcement](https://goo.gle/angularjs-end-of-life).**\n\n**[See `@angular/core` for the actively supported Angular](https://npmjs.com/@angular/core).**\n\n## Install\n\nYou can install this package either with `npm` or with `bower`.\n\n### npm\n\n```shell\nnpm install angular-mocks\n```\n\nYou can `require` ngMock modules:\n\n```js\nvar angular = require('angular');\nangular.module('myMod', [\n  require('angular-animate'),\n  require('angular-mocks/ngMock'),\n  require('angular-mocks/ngAnimateMock')\n]);\n```\n\n### bower\n\n```shell\nbower install angular-mocks\n```\n\nThe mocks are then available at `bower_components/angular-mocks/angular-mocks.js`.\n\n## Documentation\n\nDocumentation is available on the\n[AngularJS docs site](https://docs.angularjs.org/guide/unit-testing).\n\n## License\n\nThe MIT License\n\nCopyright (c) 2022 Google LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.3"
+}

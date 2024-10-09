@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular-route@1.8.x",
+        "scope": null,
+        "escapedName": "angular-route",
+        "name": "angular-route",
+        "rawSpec": "1.8.x",
+        "spec": ">=1.8.0 <1.9.0",
+        "type": "range"
+      },
+      "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle"
+    ]
+  ],
+  "_from": "angular-route@>=1.8.0 <1.9.0",
+  "_hasShrinkwrap": false,
+  "_id": "angular-route@1.8.3",
+  "_inCache": true,
+  "_location": "/angular-route",
+  "_nodeVersion": "14.19.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular-route_1.8.3_1649369799048_0.996739334360351"
+  },
+  "_npmUser": {
+    "name": "angular",
+    "email": "devops+npm@angular.io"
+  },
+  "_npmVersion": "6.14.16",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-route@1.8.x",
+    "scope": null,
+    "escapedName": "angular-route",
+    "name": "angular-route",
+    "rawSpec": "1.8.x",
+    "spec": ">=1.8.0 <1.9.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-route/-/angular-route-1.8.3.tgz",
+  "_shasum": "f24a700ebd462454ca83a8b765df55c87a4edde1",
+  "_shrinkwrap": null,
+  "_spec": "angular-route@1.8.x",
+  "_where": "C:\\Users\\GlennCARROY\\projects\\angularjs\\mageBattle",
+  "author": {
+    "name": "Angular Core Team",
+    "email": "angular-core+npm@google.com"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "deprecated": "For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS support options, see https://goo.gle/angularjs-path-forward.",
+  "description": "AngularJS router module",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-kpIcRmDR2+o1FxDVVYy8Rvfab86/7LDbOgTRb9T+X9ewPQiBRuDEnZtM3oJYBiQLvAXDYTJXHV48n/bGE9Mv2g==",
+    "shasum": "f24a700ebd462454ca83a8b765df55c87a4edde1",
+    "tarball": "https://registry.npmjs.org/angular-route/-/angular-route-1.8.3.tgz",
+    "fileCount": 8,
+    "unpackedSize": 71369,
+    "signatures": [
+      {
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+        "sig": "MEQCIDHiz32YNGJ+6VzW2yI9InqFCjmPuRqxji2uhhRsz52vAiBcGYWf56ivHbIA+dQexHejCLSGDoB0n6C5dG/h9vplMA=="
+      }
+    ],
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiT2LHACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpMvg/+OcvWwhgl8XDM4Tx5BwdP0N+KMIngDFCYzN9g3l3kXOwh9kt2\r\nmiNraQkQpUwxx7r54Ah5tjDxnc1nMJZ1+dlbGPjL9+JVNqLypBYrCX52EFhT\r\nwrTQ+DDTB+53MFPY6DUpc1gISLu27Mr5Pa+P4jWO+Ypypvc6VBLO/0chqqe3\r\nNNyHvE/psW6BeE6ylN0dQfObxImQ/UrgYo+eLFwvgvzwBbZCDZkwPRSDbSgy\r\nG80z8vmQ8CHzr1EDuTLdTM0WULeKT90c0bPZnnaJyzxJnGs2hInLKtIh5TEC\r\n+S4GdPpR1UjptAxCp1g3cl6oM1uhLnlvBHlswZjj1bCqohivpU2cnIRTaiAx\r\nNknKJtiB4nWm51IxBe6wh/WzoVWc85zNFVQ2guyKdeM/aV8kSSnIJF0TDqoP\r\ndCaXHAdjOdKCi7udVd8BSrBfxHTGIRx60vltl6a22YRiw0kT1O1lAO1+TDQw\r\nluTmh5nOnLdp9oh3rHVc1nbq4wbhgtotWpqZTFB8tY2+JaF6+Qnw2ODdXtn5\r\n1FWQrBvmYmX1ulc7LdayaLejTkC/vpxiNzHyQT71cW4L8O5FA/h+q77R7IVX\r\nTx6ZfiQXTV1tBGy1Po1Vy7UASIgEZX5ZUVHcfbSRhbCFKMf0NyrDtCASTfJA\r\n05O02cmecv/FAMqvIgI3J8BS358Gt4Tq6iE=\r\n=zgZA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "01f39b724c144ffc556bef7f3bca43b1b5662fe7",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-route": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "router",
+    "client-side"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "devops+npm@angular.io"
+    }
+  ],
+  "name": "angular-route",
+  "optionalDependencies": {},
+  "readme": "# packaged angular-route\n\n**This package contains the legacy AngularJS (version 1.x). AngularJS support has officially ended\nas of January 2022.\n[See what ending support means](https://docs.angularjs.org/misc/version-support-status) and\n[read the end of life announcement](https://goo.gle/angularjs-end-of-life).**\n\n**[See `@angular/core` for the actively supported Angular](https://npmjs.com/@angular/core).**\n\n## Install\n\nYou can install this package either with `npm` or with `bower`.\n\n### npm\n\n```shell\nnpm install angular-route\n```\n\nThen add `ngRoute` as a dependency for your app:\n\n```javascript\nangular.module('myApp', [require('angular-route')]);\n```\n\n### bower\n\n```shell\nbower install angular-route\n```\n\nAdd a `<script>` to your `index.html`:\n\n```html\n<script src=\"/bower_components/angular-route/angular-route.js\"></script>\n```\n\nThen add `ngRoute` as a dependency for your app:\n\n```javascript\nangular.module('myApp', ['ngRoute']);\n```\n\n## Documentation\n\nDocumentation is available on the\n[AngularJS docs site](http://docs.angularjs.org/api/ngRoute).\n\n## License\n\nThe MIT License\n\nCopyright (c) 2022 Google LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.3"
+}

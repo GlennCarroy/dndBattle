@@ -6,3 +6,20 @@ ul {
 .selected-true {
     color: blue;
   }
+
+h1 {
+  margin-top: 15px;
+}
+
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.tag {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #e9ecef;
+}

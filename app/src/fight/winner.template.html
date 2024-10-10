@@ -1,0 +1,16 @@
+<div>
+    <div class="alert alert-success" role="alert">
+        {{$ctrl.winner.name}} the {{$ctrl.winner.class}} is the winner!
+    </div>
+    <Button 
+        ng-click="$ctrl.restart()"
+        class="btn btn-dark"
+    >
+        Restart the fight
+    </Button>
+    <a href="#!/characters">
+        <Button class="btn btn-light">
+            Chose other Characters
+        </Button>
+    </a>
+</div>

@@ -1,43 +1,27 @@
 <h1>Brawl</h1>
 <div>
-    <ul>
-        <li ng-repeat="opponent in $ctrl.fighters">
-                <span>{{opponent.name}}</span>
-        </li>
-    </ul>
-    <Button 
-        ng-click="$ctrl.hit()"
-        ng-if="!$ctrl.fightIsOver"
-        class="btn btn-dark"
-    >
-        Hit !
-    </Button>
-    <div ng-if="$ctrl.history.length > 0 && !$ctrl.fightIsOver">
-        <h3>History hits</h3>
-        <ul>
-            <li ng-repeat="turn in $ctrl.history">
-                <span>{{turn[0].name}} takes {{turn[0].wounds}} wounds (life: {{turn[0].life}})</span>
-                <span>{{turn[1].name}} takes {{turn[1].wounds}} wounds (life: {{turn[1].life}})</span>
-            </li>
-        </ul>
-    </div>
-    <div ng-if="$ctrl.fightIsOver">
-        <div class="alert alert-success" role="alert">
-            {{$ctrl.winner.name}} the {{$ctrl.winner.class}} is the winner!
+    <div class="shadow p-3 bg-body-tertiary rounded">
+        <div class="cardGrid">
+            <card player="$ctrl.fighters[0]"></card>
+            <em>VS</em>
+            <card player="$ctrl.fighters[1]"></card>
         </div>
         <Button 
-            ng-click="$ctrl.restart()"
-            class="btn btn-dark"
+            ng-click="$ctrl.hit()"
+            ng-if="!$ctrl.fightIsOver"
+            class="btn btn-dark mt-2"
         >
-            Restart the fight
+            Hit !
         </Button>
-        <a href="#!/characters">
-            <Button 
-            ng-click="$ctrl.reset()"
-            class="btn btn-light"
-            >
-                Chose other Characters
-            </Button>
-        </a>
     </div>
+    <history 
+        ng-if="$ctrl.history.length > 0 && !$ctrl.fightIsOver"
+        title="History hits" 
+        data="$ctrl.history">
+    </history>
+    <winner 
+        ng-if="$ctrl.fightIsOver"
+        winner="$ctrl.winner"
+        >
+    </winner>
 </div>

@@ -1,0 +1,10 @@
+<div class="shadow p-3 bg-body-tertiary rounded mt-2">
+    <h3> <i class="bi bi-bookmarks"></i> {{ $ctrl.title }}</h3>
+    <ul>
+        <li ng-repeat="turn in $ctrl.data">
+            <span>{{turn[0].name}} takes {{turn[0].wounds}} wounds (life: <strong ng-class="$ctrl.getColor(turn[0].life, 'text')">{{turn[0].life > 0 ? turn[0].life : 0 }}</strong>)</span>
+            <i class="bi bi-lightning-fill"></i>
+            <span>{{turn[1].name}} takes {{turn[1].wounds}} wounds (life: <strong ng-class="$ctrl.getColor(turn[1].life, 'text')">{{turn[1].life > 0 ? turn[1].life : 0}}</strong>)</span>
+        </li>
+    </ul>
+</div>

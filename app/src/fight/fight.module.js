@@ -10,7 +10,7 @@ angular.module("Fight", [])
                 let turn = []
                 const damages = this.fighters.map(f => f.damages[(Math.floor(Math.random() * f.damages.length))])
                 this.fighters.forEach((f, i) => {
-                    const wounds = damages[i=== 0 ? 1 : 0]
+                    const wounds = damages[i === 0 ? 1 : 0]
                     f.life -= wounds
                     turn.push({
                         name: f.name,
@@ -18,21 +18,32 @@ angular.module("Fight", [])
                         wounds,
                     })
 
-                    if(f.life <= 0) this.someoneDied(i=== 0 ? 0 : 1)
+                    if(f.life <= 0) this.someoneDied(f.name)
                 })
                 return this.history.push(turn)
             }
 
-            this.someoneDied = function(index) {
+            this.someoneDied = function(name) {
                 this.fightIsOver = true
-                this.winner =  this.fighters[index]
-                $rootScope.lastFight = this.history
+                this.winner =  this.fighters.find(f => f.name !== name)
+                $rootScope.lastFightHistory = this.history
             }
-
+        }
+    })
+    .component("winner", {
+        templateUrl: 'src/fight/winner.template.html',
+        transclude: true,
+        require: {
+            fightCtrl: "^fight"
+        },
+        bindings: {
+            winner: '<'
+        },
+        controller: function($rootScope) {
             this.restart = function() {
-                this.fightIsOver = false
-                this.history= []
-                this.fighters = $rootScope.opponents && $rootScope.opponents.map(o => ({ ...o, life: 10 }))
+                this.fightCtrl.fightIsOver = false
+                this.fightCtrl.history= []
+                this.fightCtrl.fighters = $rootScope.opponents && $rootScope.opponents.map(o => ({ ...o, life: 10 }))
             }
         }
     })

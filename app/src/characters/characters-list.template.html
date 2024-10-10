@@ -9,7 +9,12 @@
         </li>
     </ul>
     <div>
-        <button ng-click="$ctrl.setShowForm()"class="btn btn-dark">Add New character</button> 
+        <button
+            ng-if="!$ctrl.showForm" 
+            ng-click="$ctrl.showForm = true"
+            class="btn btn-dark">
+                Add New character
+        </button> 
         <form 
             ng-if="$ctrl.showForm === true"
             ng-submit="$ctrl.addCharacter()" 
@@ -19,11 +24,21 @@
             <button ng-click="$ctrl.cancel()">Annuler</button>
         </form>
     </div>
-    <div ng-if="$ctrl.selectionIsReady()">
-        <button
-            ng-click="$ctrl.startFight()"
-            class="btn btn-dark mt-2">
+    <button
+        ng-if="$ctrl.selectionIsReady()"
+        ng-click="$ctrl.startFight()"
+        class="btn btn-dark mt-2">
             Fight!
-        </button>
-    </div>
+    </button>
+    <button
+        ng-if="$ctrl.rootHasHistory()"
+        ng-click="$ctrl.showHistory = !$ctrl.showHistory"
+        ng-class="$ctrl.showHistory ? 'btn btn-secondary mt-2' : 'btn btn-dark mt-2'">
+            {{$ctrl.showHistory ? "Hide history" : "Check last fight history"}}
+    </button>
+    <history
+        ng-if="$ctrl.showHistory === true" 
+        title="Last fight history" 
+        data="$root.lastFightHistory">
+    </history>
 </div>

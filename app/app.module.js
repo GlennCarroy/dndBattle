@@ -1,5 +1,6 @@
 angular.module('BattleApp', [ 
-    "ngRoute", 
+    "ngRoute",
+    "CommonComponents",
     "CharactersList", 
     "Fight"
 ])

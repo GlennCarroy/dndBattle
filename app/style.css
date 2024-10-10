@@ -4,7 +4,8 @@ ul {
 }
 
 .selected-true {
-    color: blue;
+    font-weight: 500;
+    color: #0dcaf0;
   }
 
 h1 {
@@ -16,10 +17,4 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-}
-
-.tag {
-  padding: 5px;
-  border-radius: 10px;
-  background-color: #e9ecef;
 }

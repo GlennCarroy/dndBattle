@@ -8,9 +8,7 @@
             <div class="d-inline p-2 text-secondary-emphasis text-bg-light rounded"><em>{{$ctrl.player.weapon}}</em></div>
         </div>
     </div>
-    <div
-        ng-if="!!$ctrl.player.life" 
-        class="card-footer">
+    <div class="card-footer">
         <div class="progress" role="progressbar" aria-label="Warning example" aria-valuemin="0" aria-valuemax="100">
             <div ng-class="$ctrl.getClasses($ctrl.player.life)" style="width: {{$ctrl.player.life*10}}%"></div>
         </div>

@@ -2,9 +2,9 @@
     <h1>Select 2 opponents</h1>
     <ul>
         <li ng-repeat="character in $ctrl.characters">
-            <label class="checkbox selected-{{character.selected}}">
+            <label class="checkbox p-2 selected-{{character.selected}}">
                 <input type="checkbox" ng-model="character.selected">
-                <span>{{character.name}}</span> | <span>{{character.class}}</span> | <span>{{character.weapon}}</span>
+                <span>{{character.name}}</span> <span class="d-inline p-2 text-bg-light rounded">{{character.class}}</span> <span class="d-inline p-2 text-bg-light rounded">{{character.weapon}}</span>
             </label>
         </li>
     </ul>

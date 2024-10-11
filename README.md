@@ -1,5 +1,6 @@
 # Dnd Battle App
 This small application has been build in order to better understand the concepts behing Angular JS 1.8.
+Visit the app [here](https://glenncarroy.github.io/dndBattle/app/index.html)
 
 _**Disclaimer:** I am well aware that Angular JS is no longer supported (2022)._
 
